@@ -1,4 +1,4 @@
-# POWERSHELL ![image](https://github.com/usuariomiguel/Powershell-2Trim/blob/master/img/terminal-powershell.png)
+# POWERSHELL ![image](https://iconos8.es/icons/set/powershell)
 
 
 ## Al iniciar PowershelISE
