@@ -1,4 +1,4 @@
-# POWERSHELL ![image](https://user-images.githubusercontent.com/92717152/159906570-3c901d75-a333-40c9-86c9-9d6995456569.png)
+# POWERSHELL https://www.iconbolt.com/iconsets/codicons/terminal-powershell 
 
 
 ## Al iniciar PowershelISE
