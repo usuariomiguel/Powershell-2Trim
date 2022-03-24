@@ -1,4 +1,4 @@
-# POWERSHELL ![image](https://iconos8.es/icons/set/powershell)
+# POWERSHELL ![image](https://github.com/usuariomiguel/Powershell-2Trim/blob/master/img/icons8-powershell-48%20(1).png)
 
 
 ## Al iniciar PowershelISE
@@ -31,7 +31,7 @@ Variable.Count()
 
 ![image](https://github.com/usuariomiguel/Powershell-2Trim/blob/master/img/caracteres_escape.png)
 
-## Operadores ![image](https://github.com/usuariomiguel/Powershell-2Trim/blob/master/img/symbol-operator.png)
+## Operadores ![image](https://github.com/usuariomiguel/Powershell-2Trim/blob/master/img/icons8-math-48.png)
 
 ### Aritmeticos
 
