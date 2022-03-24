@@ -1,4 +1,5 @@
-# POWERSHELL
+# POWERSHELL ![image](https://user-images.githubusercontent.com/92717152/159906570-3c901d75-a333-40c9-86c9-9d6995456569.png)
+
 
 ## Al iniciar PowershelISE
 > Ejecutar *Get-ExecutionPolicy* 
