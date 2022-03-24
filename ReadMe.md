@@ -1,4 +1,4 @@
-# POWERSHELL https://www.iconbolt.com/iconsets/codicons/terminal-powershell 
+# POWERSHELL ![image](https://github.com/usuariomiguel/Powershell-2Trim/blob/master/img/terminal-powershell.png)
 
 
 ## Al iniciar PowershelISE
@@ -6,23 +6,32 @@
 
 ## Variables 
 
-+ aqui va la imagen correspondiente
+Espacio reservado de la memoria principal a la que ponemos un nombre y cuyo contenido puede variar durante la ejecución del programa.
 
-### VAriables predefinidas
+El nombre debe cumplir unas normas:
 
-+ aqui va la imagen correspondiente
+- Empezar por $
+- A continuación letras, números o símbolos
+- Ir entre {}, si el nombre contiene espacios en blanco
 
 ### Variables – Tipos de datos - Conversores
 
-+ aqui va la imagen correspondiente
+![image](https://github.com/usuariomiguel/Powershell-2Trim/blob/master/img/Variables_1.png)
 
+### Variables predefinidas
+
+![image](https://github.com/usuariomiguel/Powershell-2Trim/blob/master/img/variables_perdefinidas.png)
 
 Variable.GetType()
 - Muestra el tipo de dato
 Variable.Count()
 - Muestra conteo de posiciones args
 
-## Operadores 
+### Caracteres de escape
+
+![image](https://github.com/usuariomiguel/Powershell-2Trim/blob/master/img/caracteres_escape.png)
+
+## Operadores ![image](https://github.com/usuariomiguel/Powershell-2Trim/blob/master/img/symbol-operator.png)
 
 ### Aritmeticos
 
@@ -39,54 +48,17 @@ Variable.Count()
 
 ### Operadores de comparacion
 
-**Igualdad**	
-- -eq	equals
-- -ieq	equals && not MAY and min
-- -ne	no es igual a
-- -gt	mayor que
-- -ge	mayor o igual
-- -lt	menor que
-- -le	menor o igual
-
-**Matching**
-
-- -like	String coincide con el patrón de caracteres comodín
-- -notlike	String no coincide con el patrón de caracteres comodín
-
-**Replacement**	
-
-- -replace	reemplaza las cadenas que coinciden con un patrón regex
-
-**Containment**	
-
-- -contains	colección contiene un valor
-- -notcontains la colección no contiene un valor
+![image](https://github.com/usuariomiguel/Powershell-2Trim/blob/master/img/operadores_de_comparador.png)
 
 ### Logicos
 
-- -AND 
-
-(5 -ge 3) -and ("hola) -like "h*") -> $true
-
-
-- -OR
-
-
-(5 -ge 3) -or ("hola) -notlike "h*") -> $false
-
-(5 -le 3) -or ("hola) -like "h*") -> $true
-
-
-- NOT !
-
-(5 -le 3) -or !("hola) -notlike "h*") -> $
-
+![image](https://github.com/usuariomiguel/Powershell-2Trim/blob/master/img/operadores_logicos.png)
 
 ## ESTRUCTURAS DE CONTROL
 
 ### CONDICIONALES
 
-#### **IF** data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAXVBMVEX///8AAAC0tLSGhoZra2uOjo7IyMitra2lpaWpqallZWViYmKDg4Pq6uqwsLCKior19fXCwsJwcHCYmJhTU1NDQ0O6urrQ0NAkJCTd3d3X19fLy8tKSkp6enpbW1vl80roAAABoklEQVR4nO3c227aQBRA0XAzAUIITRra9PL/n5nHw4hi7FTYZ6y1Xm1LZ0sWYjzSPDwAAAAAAAAAAAAAAAAAAAlstsuwazo983J8/bb8h+3rnYf9kqfZuXmHJ5q32TXbu4/7BYuehfvvV/tms+UAA/fWs/DY0jeJwvfWwAkUntoD6y98uRFYf+GfqRfubwVWX7i40jWdwh9TL7z9ktZe2FRaWP4+PrfcOb9duBts7B5+Nuf2LXeWhctTc+ljsLHvoiw8jD3OHZSFi7HHuQOF9VNYP4X1U1g/hfUrvyTW87/0/bAKh1Nx7df5tdW2KPy9unRYjxTRqty3KNeHj7Oeqtu36F2Yco2vUKHC8SlUqHB8ChUWUu5btBV+bNbhudzD+TtfXzqOFNGq++5arevD7oW1rvEVBoVZKQwKs1IYFGalMCjMSmFQmJXCoDArhUFhVgqDwqwUBoVZKQwKs1IYFGalMCjMSmFQmJXCoDArhUFhVgqDwqwUBoVZTb+w+/mlZeHTYBP+r+5n0Da78+NmN4NNCAAAAAAAAAAAAAAAAAC0+ASoAha/KauKdgAAAABJRU5ErkJggg==
+#### **IF** 
 
 ***Permite crear condiciones***
 
@@ -276,7 +248,7 @@ foreach ( $elemento in $tabla ) {
 
 ### Metodos
 
-***Aqui va una imagen***
+![image](https://github.com/usuariomiguel/Powershell-2Trim/blob/master/img/objeto_string.png)
 
 ## Arrays o tablas
 
