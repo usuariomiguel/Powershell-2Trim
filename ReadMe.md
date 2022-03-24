@@ -31,7 +31,7 @@ Variable.Count()
 
 ![image](https://github.com/usuariomiguel/Powershell-2Trim/blob/master/img/caracteres_escape.png)
 
-## Operadores ![image](https://github.com/usuariomiguel/Powershell-2Trim/blob/master/img/icons8-math-48.png)
+## Operadores
 
 ### Aritmeticos
 
