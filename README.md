@@ -392,6 +392,16 @@ $registro | out-file peliculas.txt -encoding ASCII
 
 	*$peliculas=@{"titulo"=@(año,"estudio","protagonista","protagonistaM","director",nºoscar,valoracion);
 	}*
+	
+	## Crear archivos
+
+	*En consola:*
+
+	$registro = “Pepe”+"#"+ “Perez”+"#"+ “628455621”+ "#"+ “pperez@Gmail.com”
+
+	*En Bloc de Notas:*
+
+	JUMANJI:2003:MGM:Robin W:XX:YY:0:7
 
 **Crear las siguientes opciones:**
 
@@ -408,15 +418,7 @@ $registro | out-file peliculas.txt -encoding ASCII
 6. Salir
     - Enviar la informacion de la tabla hash a un fichero
 
-## Ficheros - Crear archivos
-
-*En consola:*
-
-$registro = “Pepe”+"#"+ “Perez”+"#"+ “628455621”+ "#"+ “pperez@Gmail.com”
-
-*En Bloc de Notas:*
-
-JUMANJI:2003:MGM:Robin W:XX:YY:0:7
+**SOLUCION**
 
 ``` ps1
 $hash=@{}
