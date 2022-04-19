@@ -382,28 +382,25 @@ $registro | out-file peliculas.txt -encoding ASCII
 
 ```
 
-> Ejercicio: 
+## **Ejercicio:** 
 
 1. Crear un fichero secuencial con los datos que queramos cargar en la tabla hash
 
 2.  Crear una tabla hash a partir de los datos del fichero, cuyos elementos sean arrays. 
 
 	Por ejemplo:
-
-	*$peliculas=@{"titulo"=@(año,"estudio","protagonista","protagonistaM","director",nºoscar,valoracion);
-	}*
+	`$peliculas=@{"titulo"=@(año,"estudio","protagonista","protagonistaM","director",nºoscar,valoracion);
+	}`
 	
-	## Crear archivos
+	> Crear archivos
 
 	*En consola:*
-
-	$registro = “Pepe”+"#"+ “Perez”+"#"+ “628455621”+ "#"+ “pperez@Gmail.com”
+	`$registro = “Pepe”+"#"+ “Perez”+"#"+ “628455621”+ "#"+ “pperez@Gmail.com”`
 
 	*En Bloc de Notas:*
+	`JUMANJI:2003:MGM:Robin W:XX:YY:0:7`
 
-	JUMANJI:2003:MGM:Robin W:XX:YY:0:7
-
-**Crear las siguientes opciones:**
+### Crear las siguientes opciones: 
 
 1. Añadir elementos a la tabla hash
 2. Eliminar elementos a la tabla hash
