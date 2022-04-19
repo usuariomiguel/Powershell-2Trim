@@ -415,7 +415,7 @@ $registro | out-file peliculas.txt -encoding ASCII
 6. Salir
     - Enviar la informacion de la tabla hash a un fichero
 
-**SOLUCION**
+## *SOLUCION*
 
 ``` ps1
 $hash=@{}
