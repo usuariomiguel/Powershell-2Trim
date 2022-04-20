@@ -1,7 +1,0 @@
-Aramco:1933:Arabia Saudi:Petroleo:8.590.000.000$
-Tencent:1998:China:Servicios y medios interactivos:4.000.000.000$
-Apple Inc:1976:EEUU:Tecnologia,Hardware:2.800.000.000$
-Microsoft:1975:EEUU:Tecnologia,Hardware:2.300.000.000$
-Google:1998:EEUU:Servicios y medios interactivos:1.860.000.000$
-Amazon:1994:EEUU:Comercio minorista de Internet:1.600.000.000$
-Tesla:2003:EEUU:Automoviles:1.100.000.000$
